@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "The Adventures of Tom Sawyer",
+        "price":0,
+        "category": "Fiction",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+    },
+
+    {
+        "id": 2,
+        "name": "Science Book",
+        "title": "A Brief History of Time",
+        "price": 500,
+        "category": "Science",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 3,
+        "name": "Programming Book",
+        "title": "Eloquent JavaScript",
+        "price": 600,
+        "category": "Technology",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 4,
+        "name": "Novel",
+        "title": "To Kill a Mockingbird",
+        "price": 400,
+        "category": "Literature",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 5,
+        "name": "Self-Help Book",
+        "title": "Atomic Habits",
+        "price": 350,
+        "category": "Self-Help",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 6,
+        "name": "History Book",
+        "title": "Sapiens: A Brief History of Humankind",
+        "price":0,
+        "category": "History",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 7,
+        "name": "Fantasy Book",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "price":0,
+        "category": "Fantasy",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 8,
+        "name": "Biography",
+        "title": "The Diary of a Young Girl",
+        "price": 0,
+        "category": "Biography",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 9,
+        "name": "Business Book",
+        "title": "Rich Dad Poor Dad",
+        "price":0,
+        "category": "Business",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      },
+      {
+        "id": 10,
+        "name": "Poetry Book",
+        "title": "The Sun and Her Flowers",
+        "price":0,
+        "category": "Poetry",
+        "image" : "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1743502193~exp=1743505793~hmac=ff0879b4cf7dea0d17a65e49186880874315dc0df503e878f49aed814168b4f5&w=826"
+      }
+
+    
+]
