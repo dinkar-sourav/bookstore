@@ -1,9 +1,46 @@
 import React from 'react'
+import axios from 'axios';
 import Login from '../Pages/Login'
 import { useForm } from "react-hook-form";
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../src/Components/Contextapi/provider';
 export default function Signup() {
+  const [authUser,setAuthUser]= useAuth();
+  const navigate= useNavigate();
    const { register, handleSubmit, watch, formState: { errors } } = useForm();
-   const onSubmit = data => console.log(data);
+   const onSubmit = async (data)=>{
+      const userInfo={
+         name:data.name,
+         email : data.email,
+         password : data.password
+      }
+      try {
+        const response= await axios.post("http://localhost:3000/users/signup", userInfo);
+
+        if(response.status==201){
+          alert("user created successfully");
+          console.log(response.data);
+          localStorage.setItem("loginusers",JSON.stringify(response.data.user));
+          setAuthUser(response.data.user);
+          navigate("/")
+          
+        }
+      } catch (error) {
+          if(error.response){
+             alert(error.response.data.msg);
+          }
+          else{
+            console.log(error.message);
+          }
+      }
+
+   }
+
+   const handleClose = () => {
+    const modal = document.getElementById("my_modal_5");
+    if (modal) modal.close(); // 👈 manually close it
+    navigate("/");             // 👈 now navigate will work
+  };
 
   return (
     <div className="flex h-screen items-center justify-center">
@@ -63,6 +100,14 @@ export default function Signup() {
                             onClick={()=>document.getElementById("my_modal_5").showModal()}
             className='text-blue-600 underline'>Login</span>
         </button>
+
+        <div className="modal-action">
+              {/* if there is a button in form, it will close the modal */}
+
+              <button onClick={handleClose} className="btn">
+                Close
+              </button>
+            </div>
        
      </div>
      </form>
