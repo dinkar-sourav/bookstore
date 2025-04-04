@@ -15,7 +15,7 @@ export default function Signup() {
          password : data.password
       }
       try {
-        const response= await axios.post("http://localhost:3000/users/signup", userInfo);
+        const response= await axios.post("https://bookstore-3-yk4b.onrender.com/users/signup", userInfo);
 
         if(response.status==201){
           alert("user created successfully");
